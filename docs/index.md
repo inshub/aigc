@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "AIGC"
   text: "A AIGC Site"
-  tagline: My great project tagline
+  # tagline: My great project tagline
   image:
     src: /bg.svg
     alt: 背景图
