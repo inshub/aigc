@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+// auto_sidebar
+import { set_sidebar } from './set_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,18 +13,11 @@ export default defineConfig({
     logo: '/ai.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'ChatGPT', link: '/chatgpt/' },
+      { text: 'MidJourney', link: '/midjourney/' },
+      { text: 'Sora', link: '/sora/' }
     ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: { '/chatgpt': set_sidebar('chatgpt'), '/midjourney': set_sidebar('midjourney'), '/sora': set_sidebar('sora') },
     // 设置搜索框的样式
     search: {
       provider: "local",
@@ -44,7 +39,7 @@ export default defineConfig({
       },
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/inshub' }
     ]
   }
 })
