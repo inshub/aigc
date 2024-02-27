@@ -4,7 +4,6 @@ import { set_sidebar } from './set_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/aigc/",
   title: "AIGC",
   head: [["link", { rel: "icon", href: "/ai.svg" }]],
   description: "A AIGC Site",
