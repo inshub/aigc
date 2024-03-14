@@ -4,6 +4,7 @@ docs/.DS_Store
 docs/.vitepress/.cache
 docs/.vitepress/cache/*
 docs/.vitepress/dist
+docs/.history/*
 *.local
 .cache
 .temp
