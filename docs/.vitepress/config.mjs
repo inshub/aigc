@@ -16,6 +16,8 @@ export default defineConfig({
       { text: 'MidJourney', link: '/midjourney/' },
       { text: 'Sora', link: '/sora/' }
     ],
+    outline: 'deep',
+    outlineTitle: '页面目录',
     sidebar: { '/chatgpt': set_sidebar('chatgpt'), '/midjourney': set_sidebar('midjourney'), '/sora': set_sidebar('sora') },
     // 设置搜索框的样式
     search: {
