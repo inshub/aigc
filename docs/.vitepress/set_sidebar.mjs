@@ -40,8 +40,10 @@ function getList(params, path1, pathname) {
             if (suffix !== '.md') {
                 continue
             }
+            // 去除 .md 后缀显示在侧边栏
+            const displayName = name.replace(/\.md$/, '')
             res.push({
-                text: name,
+                text: displayName,
                 link: `${pathname}/${name}`,
             })
         }

@@ -12,13 +12,13 @@ export default defineConfig({
     logo: '/ai.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'ChatGPT', link: '/chatgpt/' },
-      { text: 'MidJourney', link: '/midjourney/' },
-      { text: 'Sora', link: '/sora/' }
+      { text: 'Chrome插件', link: '/chrome/' },
+      { text: 'Web站点', link: '/web/' },
+      { text: '小程序', link: '/wechat/' }
     ],
     outline: 'deep',
     outlineTitle: '页面目录',
-    sidebar: { '/chatgpt': set_sidebar('chatgpt'), '/midjourney': set_sidebar('midjourney'), '/sora': set_sidebar('sora') },
+    sidebar: { '/chrome': set_sidebar('chrome'), '/web': set_sidebar('web'), '/wechat': set_sidebar('wechat') },
     // 设置搜索框的样式
     search: {
       provider: "local",
