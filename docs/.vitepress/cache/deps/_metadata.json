@@ -1,52 +1,52 @@
 {
-  "hash": "86e44a0f",
-  "configHash": "b3c5bbc4",
+  "hash": "cc653bf2",
+  "configHash": "b8fb48d6",
   "lockfileHash": "0ef0dfa1",
-  "browserHash": "fc7a6120",
+  "browserHash": "3c874b2f",
   "optimized": {
     "vue": {
-      "src": "../../../../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/.pnpm/vue@3.4.19/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "6abf8160",
+      "fileHash": "c07a9458",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.0.15_vue@3.4.19/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "a5896315",
+      "fileHash": "dcfa6f99",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@10.8.0_vue@3.4.19/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "e9b050dc",
+      "fileHash": "f23b98d9",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@10.8.0_focus-trap@7.5.4_vue@3.4.19/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "682326a4",
+      "fileHash": "6921b37a",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "6c24e298",
+      "fileHash": "90fca8e8",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@6.3.0/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "77c8a763",
+      "fileHash": "9a71c0e7",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-HNGP3WJH": {
-      "file": "chunk-HNGP3WJH.js"
+    "chunk-GETBQIRZ": {
+      "file": "chunk-GETBQIRZ.js"
     },
-    "chunk-7ZGCFHHI": {
-      "file": "chunk-7ZGCFHHI.js"
+    "chunk-UTGH4N2I": {
+      "file": "chunk-UTGH4N2I.js"
     }
   }
 }
