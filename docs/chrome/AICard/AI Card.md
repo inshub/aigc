@@ -11,7 +11,8 @@ AICard - 智能网页卡片分享插件 🚀
 
 AICard：让每一次分享都成为视觉与信息的双重盛宴！ 🌟
 
-
+### 使用方法
+![使用截图](https://inshub.oss-cn-beijing.aliyuncs.com/aigc/ai-card-prew.jpg)
 
 
 ### 插件地址
