@@ -12,4 +12,4 @@
 以上插件都是通过AI辅助开发上线，使用Cursor,Windsurf,Trae等开发工具。
 
 欢迎关注，一起交流学习AI。
-<img width="280px" src="https://inshub.oss-cn-beijing.aliyuncs.com/aigc/qrcode_for_gh.jpg"/>
+<img width="200px" src="https://lyln.oss-cn-beijing.aliyuncs.com/wx/qrcode_inshub.jpg"/>
