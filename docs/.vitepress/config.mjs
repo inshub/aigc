@@ -4,7 +4,7 @@ import { set_sidebar } from './set_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "AIGC开发指南 - AI工具开发教程",
+  title: "AIGC开发指南",
   head: [
     ["link", { rel: "icon", href: "/ai.svg" }],
     ['link', { rel: 'canonical', href: 'https://aigc.inshub.cn' }],
