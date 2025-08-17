@@ -4,9 +4,33 @@ import { set_sidebar } from './set_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "AIGC",
-  head: [["link", { rel: "icon", href: "/ai.svg" }]],
-  description: "A AIGC Site",
+  title: "AIGC开发指南 - AI工具开发教程",
+  head: [
+    ["link", { rel: "icon", href: "/ai.svg" }],
+    ['link', { rel: 'canonical', href: 'https://aigc.inshub.cn' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1' }],
+    ['meta', { name: 'theme-color', content: '#3c3c3d' }],
+    ['meta', { name: 'keywords', content: 'AIGC, AI开发, Chrome插件, AI小程序, 人工智能开发, AI工具, Cursor教程, Claude Code教程, Windsurf, Trae AI' }],
+    
+    // OpenGraph配置
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: 'zh-CN' }],
+    ['meta', { property: 'og:title', content: 'AIGC开发指南 - AI工具开发教程' }],
+    ['meta', { property: 'og:description', content: '全面的AI开发指南，包含Chrome插件、Web站点、小程序的AI开发教程和最佳实践。使用Claude Code、Cursor、Windsurf等AI工具进行高效开发。' }],
+    ['meta', { property: 'og:image', content: '/ai.svg' }],
+    ['meta', { property: 'og:site_name', content: 'AIGC开发指南' }],
+    
+    // Twitter卡片
+    ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { property: 'twitter:title', content: 'AIGC开发指南 - AI工具开发教程' }],
+    ['meta', { property: 'twitter:description', content: '全面的AI开发指南，包含Chrome插件、Web站点、小程序的AI开发教程和最佳实践。使用Claude Code、Cursor、Windsurf等AI工具进行高效开发。' }],
+    ['meta', { property: 'twitter:image', content: '/ai.svg' }],
+    
+    // 验证标签
+    ['meta', { name: 'baidu-site-verification', content: 'code-xxx' }],
+    ['meta', { name: 'google-site-verification', content: 'xxx' }]
+  ],
+  description: "全面的AI开发指南，包含Chrome插件、Web站点、小程序的AI开发教程和最佳实践。使用Claude Code、Cursor、Windsurf等AI工具进行高效开发。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/ai.svg',

@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Allow: /chrome/
+Allow: /web/
+Allow: /claude/
+Allow: /wechat/
+Allow: /start
+Allow: /markdown
+
+# 禁止爬取后台和私有内容
+Disallow: /api/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /*?*  # 禁止爬带参数的页面
+
+# Crawl-delay，控制爬取速度
+Crawl-delay: 1
+
+# 网站地图
+Sitemap: https://aigc.inshub.cn/sitemap.xml
