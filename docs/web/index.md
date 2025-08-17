@@ -1,16 +1,13 @@
-# GitHub Weekly🤖
+# Web站点
 
-## 介绍
-经常关注ruanyf分享的科技内容,推荐或自荐文章/软件/资源实时更新在GitHub的issue
-阅读起来不是很友好，于是尝试让Cursor写一个自动更新的站点。
+### 站点列表
 
-## 实现
-- 定时抓取数据到json文件
-- Vue构建静态站点部署到GitHub
-- GitHub Action定时更新同步
-- 支持滚动加载和分页模式
+- [Github Weekly🤖](https://iohub.inshub.cn/) 
+- [PromptHub](https://prompthub.inshub.cn/)
 
-## 预览
-<https://iohub.inshub.cn/>
 
-![image](https://github.com/user-attachments/assets/9f61432a-0e49-4673-8028-d8fff079aa40)
+### 项目介绍
+以上站点都是通过AI辅助开发上线，使用Claude Code,Cursor,Windsurf,Trae等开发工具。
+
+欢迎关注，一起交流学习AI。
+<img width="200px" src="https://lyln.oss-cn-beijing.aliyuncs.com/wx/qrcode_inshub.jpg"/>

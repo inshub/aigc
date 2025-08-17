@@ -14,11 +14,12 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Chrome插件', link: '/chrome/' },
       { text: 'Web站点', link: '/web/' },
+       { text: 'Claude教程', link: '/claude/' },
       { text: '小程序', link: '/wechat/' }
     ],
     outline: 'deep',
     outlineTitle: '页面目录',
-    sidebar: { '/chrome': set_sidebar('chrome'), '/web': set_sidebar('web'), '/wechat': set_sidebar('wechat') },
+    sidebar: { '/chrome': set_sidebar('chrome'), '/web': set_sidebar('web'), '/claude': set_sidebar('claude'),'/wechat': set_sidebar('wechat') },
     // 设置搜索框的样式
     search: {
       provider: "local",
