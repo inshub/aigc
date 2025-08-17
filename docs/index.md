@@ -2,7 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: "AIGC开发指南 - AI工具开发教程"
+title: "AIGC开发指南"
 description: "专业的AIGC开发指南，提供Chrome插件、Web站点、小程序的完整AI开发教程。使用Claude Code、Cursor、Windsurf等AI工具实现高效开发，包含实用案例和最佳实践。"
 head:
   - - meta
