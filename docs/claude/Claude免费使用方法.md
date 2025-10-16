@@ -1,7 +1,7 @@
 # Claude免费使用方法
+分享使用Claude Code的方法
 
-
-### Claude Code Nexus
+### Claude Code Nexus [免费]
 [claude-code-nexus](https://github.com/KroMiose/claude-code-nexus)
 
 > 一个 Claude API 代理服务平台 - 让 Claude Code CLI 无缝兼容任何 OpenAI API 服务。
@@ -25,7 +25,7 @@
 
 ![google-ai-studio](https://inshub.oss-cn-beijing.aliyuncs.com/aigc/google-ai-studio.jpg)
 
-3. 在 Claude Code 中使用
+3. 在 Claude Code 中使用 
 
 在你的终端中设置以下环境变量：
 
@@ -44,7 +44,12 @@ claude "用 Rust 写一个 hello world"
 
 
 
-### Kiro+Claude Code
+### Kiro+Claude Code [免费]
 
 
 [kiro2cc](https://github.com/bestK/kiro2cc/)
+
+
+### y-router [按量]
+
+[y-router](https://github.com/luohy15/y-router)

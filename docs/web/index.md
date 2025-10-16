@@ -4,6 +4,8 @@
 
 - [Github Weekly🤖](https://iohub.inshub.cn/) 
 - [PromptHub](https://prompthub.inshub.cn/)
+- [短视频解析](https://pd.inshub.cn/)
+- [HTMLPreview](https://html.inshub.cn)
 
 
 ### 项目介绍

@@ -13,3 +13,6 @@
 <https://prompthub.inshub.cn/>
 
 ![image](https://inshub.oss-cn-beijing.aliyuncs.com/aigc/prompt_hub.jpg)
+
+
+![prompthub](https://inshub.oss-cn-beijing.aliyuncs.com/inshub/prompthub.jpg)
